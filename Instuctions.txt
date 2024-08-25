@@ -1,0 +1,19 @@
+## Available Commands for Running the Program ##
+
+Specific Component Commands
+01. make ast
+Runs only the Parser test and prints the AST.
+
+02. make run_cse_machine
+Prints the output of the program using the CSE Machine.
+
+Build and Run Commands
+01. make
+Runs all components: Lexical Analyzer, Parser, Standardizer, and CSE Machine.
+
+02. make run_lexical_analyzer
+Runs only the Lexical Analyzer test.
+
+03. make run_standardizer
+Prints the standardized AST (Abstract Syntax Tree).
+
